@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="container-main">
+        <h2 class="mb-4"><i class="fas fa-table"></i> All Allocations</h2>
+        
+        <p>Showing {{ (page-1)*50 + 1 }} to {{ [page*50, total]|min }} of {{ total }} allocations</p>
+        
+        <div class="table-responsive">
+            {{ allocations_html|safe }}
+        </div>
+        
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                {% if page > 1 %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('view_allocations', page=page-1) }}">Previous</a>
+                </li>
+                {% endif %}
+                
+                {% for p in range(1, total_pages + 1) %}
+                    {% if p == page %}
+                    <li class="page-item active"><span class="page-link">{{ p }}</span></li>
+                    {% else %}
+                    <li class="page-item"><a class="page-link" href="{{ url_for('view_allocations', page=p) }}">{{ p }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if page < total_pages %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ url_for('view_allocations', page=page+1) }}">Next</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</div>
+{% endblock %}

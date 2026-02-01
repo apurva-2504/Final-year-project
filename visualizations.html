@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="container-main">
+        <h2 class="mb-4"><i class="fas fa-chart-pie"></i> Allocation Visualizations</h2>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card p-3">
+                    <div id="graph1"></div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card p-3">
+                    <div id="graph2"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card p-3">
+                    <div id="graph3"></div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card p-3">
+                    <div id="graph4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    var graph1 = { graph1JSON,safe };
+    var graph2 = { graph2JSON,safe };
+    var graph3 = { graph3JSON,safe };
+    var graph4 = { graph4JSON,safe };
+    
+    Plotly.newPlot('graph1', graph1.data, graph1.layout);
+    Plotly.newPlot('graph2', graph2.data, graph2.layout);
+    Plotly.newPlot('graph3', graph3.data, graph3.layout);
+    Plotly.newPlot('graph4', graph4.data, graph4.layout);
+</script>
+{% endblock %}

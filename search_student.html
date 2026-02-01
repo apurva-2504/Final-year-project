@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="container-main">
+        <h2 class="mb-4"><i class="fas fa-search"></i> Search Student</h2>
+        
+        <form method="POST">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control form-control-lg" name="search_query" 
+                       placeholder="Enter Student ID or Name" required>
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </div>
+        </form>
+        
+        {% if found == True %}
+        <div class="card mt-4">
+            <div class="card-header bg-success text-white">
+                <h4><i class="fas fa-check-circle"></i> Student Allocated</h4>
+            </div>
+            <div class="card-body">
+                <h5>{{ student_info.student_name }}</h5>
+                <p><strong>Student ID:</strong> {{ student_info.student_id }}</p>
+                <hr>
+                <h5>Allocation Details</h5>
+                <p><strong>Company:</strong> {{ student_info.company_name }}</p>
+                <p><strong>Role:</strong> {{ student_info.role }}</p>
+                <p><strong>Match Score:</strong> {{ "%.4f"|format(student_info.total_match_score) }}</p>
+                <hr>
+                <h5>Feature Scores</h5>
+                <ul>
+                    <li>Skill Match: {{ "%.4f"|format(student_info.skill_match) }}</li>
+                    <li>Interest Match: {{ "%.4f"|format(student_info.interest_match) }}</li>
+                    <li>CGPA Match: {{ "%.4f"|format(student_info.cgpa_match) }}</li>
+                    <li>Location Match: {{ "%.4f"|format(student_info.location_match) }}</li>
+                    <li>Branch Match: {{ "%.4f"|format(student_info.branch_match) }}</li>
+                    <li>Experience Match: {{ "%.4f"|format(student_info.experience_match) }}</li>
+                </ul>
+            </div>
+        </div>
+        {% elif found == False %}
+        <div class="alert alert-warning mt-4">
+            <i class="fas fa-exclamation-triangle"></i> No allocation found for this student.
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

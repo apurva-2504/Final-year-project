@@ -1,0 +1,151 @@
+internship_id,company_name,role,location,positions_available,positions_filled,positions_remaining,avg_match_score,avg_cgpa
+INT001,TechCorp Solutions,Data Science Intern,Hyderabad,5,5,0,0.5606576576576577,8.684
+INT002,QuantumLeap Tech,Software Developer Intern,Bangalore,1,1,0,0.7842058823529413,8.74
+INT003,MobileFirst Apps,Data Analyst Intern,Delhi,2,2,0,0.8150241228070176,8.515
+INT004,DataMinds Analytics,Data Science Intern,Delhi,2,2,0,0.7321022727272728,9.915
+INT005,CloudNine Systems,Mobile App Developer Intern,Bangalore,2,2,0,0.7768750000000001,8.45
+INT006,SmartData Corp,DevOps Intern,Mumbai,4,4,0,0.7590972222222222,9.1275
+INT007,TechVista Solutions,Mobile App Developer Intern,Ahmedabad,4,4,0,0.5842663043478261,9.1725
+INT008,CloudScale Tech,Software Developer Intern,Chennai,1,1,0,0.7349242424242425,9.19
+INT009,ByteStream Solutions,Data Analyst Intern,Bangalore,4,4,0,0.7568055555555557,9.165
+INT010,CyberShield Corp,Cybersecurity Intern,Bangalore,4,4,0,0.6727083333333335,8.3225
+INT011,Analytics Pro,Frontend Developer Intern,Noida,2,2,0,0.5716987179487181,9.25
+INT012,WebCraft Digital,DevOps Intern,Ahmedabad,3,3,0,0.7724045138888891,9.083333333333334
+INT013,InfraCode Systems,Cloud Engineer Intern,Mumbai,3,3,0,0.8451010101010102,9.833333333333334
+INT014,AI Innovations Lab,Web Developer Intern,Hyderabad,1,1,0,0.8210606060606062,9.46
+INT015,NextGen Software,Frontend Developer Intern,Delhi,2,2,0,0.5936190476190477,8.379999999999999
+INT016,Innovate Systems,Mobile App Developer Intern,Ahmedabad,5,5,0,0.6013815789473685,8.55
+INT017,PixelPerfect Studios,Frontend Developer Intern,Pune,4,4,0,0.8066471354166668,8.2925
+INT018,SecureNet Technologies,Web Developer Intern,Delhi,1,1,0,0.7475362318840582,8.8
+INT019,CodeCrafters Inc,Web Developer Intern,Kolkata,3,3,0,0.6710277777777779,7.863333333333333
+INT020,Digital Dynamics,Software Developer Intern,Bangalore,5,5,0,0.6290416666666667,8.412
+INT021,CyberShield Corp,Data Analyst Intern,Ahmedabad,1,1,0,0.7141666666666667,9.4
+INT022,DataMinds Analytics,Full Stack Developer Intern,Chennai,1,1,0,0.764409090909091,8.17
+INT023,Innovate Systems,ML Engineer Intern,Bangalore,2,2,0,0.5703645833333334,9.105
+INT024,CyberShield Corp,Cloud Engineer Intern,Noida,5,5,0,0.6752666666666667,8.024000000000001
+INT025,Analytics Pro,Data Analyst Intern,Hyderabad,5,5,0,0.5845454545454547,9.32
+INT026,Digital Dynamics,Data Science Intern,Ahmedabad,2,2,0,0.6066666666666667,9.48
+INT027,Innovate Systems,Frontend Developer Intern,Gurugram,3,3,0,0.6140277777777778,8.656666666666666
+INT028,CyberShield Corp,Web Developer Intern,Hyderabad,5,5,0,0.7289833333333334,8.986
+INT029,TechVista Solutions,Cybersecurity Intern,Delhi,3,3,0,0.5676623931623932,8.54
+INT030,DataMinds Analytics,DevOps Intern,Gurugram,5,5,0,0.7117196969696972,9.454
+INT031,TechVista Solutions,ML Engineer Intern,Mumbai,3,3,0,0.5846798245614037,8.43
+INT032,PixelPerfect Studios,Data Science Intern,Mumbai,3,3,0,0.739877777777778,8.736666666666666
+INT033,CodeCrafters Inc,DevOps Intern,Delhi,1,1,0,0.5500735294117648,9.55
+INT034,InfraCode Systems,Full Stack Developer Intern,Kolkata,5,5,0,0.7002916666666668,8.483999999999998
+INT035,TechVista Solutions,Data Analyst Intern,Noida,5,5,0,0.6084000000000002,7.888000000000001
+INT036,CodeCrafters Inc,Backend Developer Intern,Hyderabad,2,2,0,0.6072500000000001,7.984999999999999
+INT037,ByteStream Solutions,DevOps Intern,Pune,2,2,0,0.7485294117647061,9.48
+INT038,QuantumLeap Tech,Backend Developer Intern,Delhi,1,1,0,0.8422380952380953,8.86
+INT039,DataMinds Analytics,Frontend Developer Intern,Bangalore,2,2,0,0.7396666666666668,9.5
+INT040,QuantumLeap Tech,Full Stack Developer Intern,Delhi,1,1,0,0.7633125000000002,9.8
+INT041,TechVista Solutions,Frontend Developer Intern,Gurugram,2,2,0,0.5821785714285714,8.934999999999999
+INT042,AI Innovations Lab,Web Developer Intern,Chennai,5,5,0,0.762409090909091,9.05
+INT043,Innovate Systems,Frontend Developer Intern,Mumbai,4,4,0,0.5838541666666668,9.5325
+INT044,PixelPerfect Studios,Data Analyst Intern,Kolkata,3,3,0,0.8244166666666667,9.346666666666666
+INT045,CodeCrafters Inc,ML Engineer Intern,Ahmedabad,3,3,0,0.5461607142857144,8.549999999999999
+INT046,PixelPerfect Studios,Software Developer Intern,Ahmedabad,2,2,0,0.7971153846153847,9.07
+INT047,CloudScale Tech,ML Engineer Intern,Kolkata,2,2,0,0.8067447916666668,8.51
+INT048,ByteStream Solutions,Mobile App Developer Intern,Noida,3,3,0,0.7113870967741937,8.9
+INT049,QuantumLeap Tech,Backend Developer Intern,Noida,3,3,0,0.7700555555555556,9.646666666666667
+INT050,Digital Dynamics,Web Developer Intern,Bangalore,2,2,0,0.6024596774193549,8.655000000000001
+INT051,PixelPerfect Studios,Mobile App Developer Intern,Kolkata,3,3,0,0.8335317460317461,9.616666666666667
+INT052,AI Innovations Lab,Cloud Engineer Intern,Noida,2,2,0,0.7510714285714287,9.190000000000001
+INT053,SecureNet Technologies,Web Developer Intern,Noida,2,2,0,0.8299134615384617,9.685
+INT054,CloudNine Systems,Frontend Developer Intern,Delhi,1,1,0,0.7742857142857144,8.16
+INT055,Innovate Systems,Data Science Intern,Chennai,3,3,0,0.6612452107279695,9.446666666666665
+INT056,CloudScale Tech,Frontend Developer Intern,Mumbai,4,4,0,0.6782589285714287,9.095
+INT057,Digital Dynamics,Frontend Developer Intern,Mumbai,2,2,0,0.6097343750000002,9.05
+INT058,TechCorp Solutions,Cloud Engineer Intern,Ahmedabad,1,1,0,0.5779230769230771,8.8
+INT059,CyberShield Corp,Data Analyst Intern,Gurugram,4,4,0,0.6444270833333334,9.315
+INT060,CyberShield Corp,Backend Developer Intern,Delhi,4,4,0,0.7648588709677421,8.547500000000001
+INT061,Innovate Systems,Frontend Developer Intern,Chennai,5,5,0,0.5544043478260869,9.166
+INT062,InfraCode Systems,Cybersecurity Intern,Kolkata,2,2,0,0.7237500000000001,9.775
+INT063,PixelPerfect Studios,Full Stack Developer Intern,Bangalore,1,1,0,0.8522500000000002,9.81
+INT064,Analytics Pro,Cybersecurity Intern,Kolkata,5,5,0,0.6248769230769231,8.964
+INT065,CloudNine Systems,Cloud Engineer Intern,Ahmedabad,5,5,0,0.7208970588235294,9.27
+INT066,SmartData Corp,Cybersecurity Intern,Noida,5,5,0,0.7317179487179488,8.876
+INT067,Digital Dynamics,DevOps Intern,Chennai,4,4,0,0.5472353603603604,8.342500000000001
+INT068,SmartData Corp,Full Stack Developer Intern,Ahmedabad,2,2,0,0.7340909090909092,7.87
+INT069,SecureNet Technologies,Frontend Developer Intern,Kolkata,4,4,0,0.7907161458333334,8.395
+INT070,PixelPerfect Studios,Data Science Intern,Hyderabad,4,4,0,0.7443675595238097,9.4475
+INT071,DataMinds Analytics,Full Stack Developer Intern,Mumbai,1,1,0,0.7630952380952383,9.12
+INT072,Analytics Pro,DevOps Intern,Delhi,4,4,0,0.5654734848484849,8.7375
+INT073,AI Innovations Lab,Backend Developer Intern,Gurugram,4,4,0,0.7901964285714287,9.2625
+INT074,PixelPerfect Studios,Cybersecurity Intern,Noida,2,2,0,0.836513157894737,8.43
+INT075,MobileFirst Apps,ML Engineer Intern,Mumbai,3,3,0,0.7825714285714286,9.56
+INT076,CodeCrafters Inc,Cloud Engineer Intern,Noida,2,2,0,0.6644140625000001,8.375
+INT077,NextGen Software,Full Stack Developer Intern,Pune,4,4,0,0.5721545698924732,8.0775
+INT078,DataMinds Analytics,Backend Developer Intern,Noida,5,5,0,0.7150490196078433,8.748
+INT079,Analytics Pro,Frontend Developer Intern,Mumbai,4,4,0,0.5558445945945947,8.685
+INT080,CloudNine Systems,Backend Developer Intern,Hyderabad,1,1,0,0.8398684210526316,9.74
+INT081,NextGen Software,Frontend Developer Intern,Pune,5,5,0,0.5871406250000002,8.854
+INT082,TechVista Solutions,Backend Developer Intern,Chennai,4,4,0,0.5788894230769231,8.557500000000001
+INT083,NextGen Software,Full Stack Developer Intern,Noida,4,4,0,0.5925403225806453,8.555
+INT084,NextGen Software,Software Developer Intern,Delhi,5,5,0,0.6217549019607844,9.052000000000001
+INT085,Analytics Pro,Backend Developer Intern,Bangalore,4,4,0,0.6508620689655175,9.260000000000002
+INT086,Innovate Systems,Data Science Intern,Noida,1,1,0,0.6570394736842107,9.85
+INT087,SmartData Corp,Mobile App Developer Intern,Kolkata,2,2,0,0.7535161290322582,8.120000000000001
+INT088,SmartData Corp,Software Developer Intern,Gurugram,2,2,0,0.7820357142857144,9.745000000000001
+INT089,InfraCode Systems,Data Science Intern,Pune,2,2,0,0.8129772727272728,8.855
+INT090,CloudScale Tech,Cybersecurity Intern,Noida,5,5,0,0.7015909090909093,8.756
+INT091,Analytics Pro,ML Engineer Intern,Hyderabad,3,3,0,0.5505902777777779,8.840000000000002
+INT092,ByteStream Solutions,Frontend Developer Intern,Chennai,3,3,0,0.777777777777778,9.12
+INT093,CloudScale Tech,Mobile App Developer Intern,Bangalore,5,5,0,0.6940000000000001,8.496
+INT094,Innovate Systems,Data Analyst Intern,Gurugram,5,5,0,0.5782948717948719,8.542
+INT095,ByteStream Solutions,DevOps Intern,Delhi,5,5,0,0.7184761904761906,8.968
+INT096,SecureNet Technologies,ML Engineer Intern,Mumbai,4,4,0,0.8187565104166667,9.3425
+INT097,MobileFirst Apps,ML Engineer Intern,Noida,4,4,0,0.7338194444444446,9.5075
+INT098,ByteStream Solutions,Frontend Developer Intern,Bangalore,4,4,0,0.7468229166666668,8.5275
+INT099,DataMinds Analytics,Software Developer Intern,Kolkata,2,2,0,0.7793515625,9.375
+INT100,InfraCode Systems,DevOps Intern,Mumbai,2,2,0,0.7611458333333335,9.48
+INT101,MobileFirst Apps,Frontend Developer Intern,Delhi,4,4,0,0.804483695652174,8.5275
+INT102,CloudScale Tech,Frontend Developer Intern,Noida,4,4,0,0.7551500000000002,9.005
+INT103,PixelPerfect Studios,Cloud Engineer Intern,Pune,2,2,0,0.8471590909090911,9.435
+INT104,AI Innovations Lab,Web Developer Intern,Ahmedabad,4,4,0,0.7527187500000001,8.477500000000001
+INT105,Innovate Systems,ML Engineer Intern,Bangalore,5,5,0,0.6079333333333334,9.22
+INT106,SmartData Corp,Software Developer Intern,Delhi,3,3,0,0.7149305555555556,9.233333333333333
+INT107,TechVista Solutions,Cloud Engineer Intern,Hyderabad,3,3,0,0.5349014336917564,8.71
+INT108,ByteStream Solutions,Full Stack Developer Intern,Mumbai,5,5,0,0.770818181818182,8.628
+INT109,SecureNet Technologies,Full Stack Developer Intern,Kolkata,5,5,0,0.7546111111111112,9.373999999999999
+INT110,DataMinds Analytics,Mobile App Developer Intern,Pune,4,4,0,0.7338636363636365,9.07
+INT111,NextGen Software,Cloud Engineer Intern,Kolkata,2,2,0,0.5546428571428572,9.43
+INT112,CyberShield Corp,Frontend Developer Intern,Delhi,5,5,0,0.6539666666666667,9.368
+INT113,Analytics Pro,Web Developer Intern,Gurugram,1,1,0,0.5763888888888891,7.71
+INT114,ByteStream Solutions,Cybersecurity Intern,Noida,5,5,0,0.7219078947368421,8.677999999999999
+INT115,ByteStream Solutions,Data Analyst Intern,Delhi,3,3,0,0.7864583333333334,8.656666666666666
+INT116,SecureNet Technologies,Data Science Intern,Bangalore,4,4,0,0.7506612318840581,9.2025
+INT117,ByteStream Solutions,Data Science Intern,Ahmedabad,4,4,0,0.7354389880952381,9.067499999999999
+INT118,MobileFirst Apps,ML Engineer Intern,Pune,3,3,0,0.7828643790849674,9.696666666666667
+INT119,TechVista Solutions,Cybersecurity Intern,Mumbai,5,5,0,0.6135384615384616,9.040000000000001
+INT120,Analytics Pro,Mobile App Developer Intern,Hyderabad,3,3,0,0.6297222222222223,8.83
+INT121,MobileFirst Apps,ML Engineer Intern,Pune,1,1,0,0.7585937500000001,9.94
+INT122,WebCraft Digital,Data Science Intern,Kolkata,4,4,0,0.776548076923077,9.395
+INT123,Digital Dynamics,Data Science Intern,Delhi,4,4,0,0.5893958333333335,9.0425
+INT124,TechCorp Solutions,ML Engineer Intern,Bangalore,1,1,0,0.6263382352941177,7.93
+INT125,PixelPerfect Studios,Data Science Intern,Mumbai,3,3,0,0.7407239583333333,8.31
+INT126,Digital Dynamics,Backend Developer Intern,Kolkata,4,4,0,0.6367405913978496,8.7975
+INT127,Digital Dynamics,Web Developer Intern,Chennai,3,3,0,0.5695593869731802,9.553333333333333
+INT128,WebCraft Digital,Data Science Intern,Bangalore,1,1,0,0.8465530303030304,9.41
+INT129,NextGen Software,Frontend Developer Intern,Delhi,1,1,0,0.6390555555555557,7.95
+INT130,Digital Dynamics,Cloud Engineer Intern,Kolkata,2,2,0,0.6481333333333335,8.91
+INT131,ByteStream Solutions,Cloud Engineer Intern,Gurugram,1,1,0,0.9483333333333336,10.0
+INT132,CloudScale Tech,Frontend Developer Intern,Bangalore,3,3,0,0.7711718750000002,9.623333333333333
+INT133,DataMinds Analytics,ML Engineer Intern,Bangalore,2,2,0,0.7982867647058824,9.605
+INT134,SmartData Corp,Cybersecurity Intern,Noida,2,2,0,0.6566964285714286,8.29
+INT135,TechCorp Solutions,ML Engineer Intern,Pune,1,1,0,0.6177205882352942,8.99
+INT136,Analytics Pro,Web Developer Intern,Chennai,4,4,0,0.593766891891892,9.3225
+INT137,ByteStream Solutions,Web Developer Intern,Pune,1,1,0,0.7752083333333334,8.78
+INT138,NextGen Software,Mobile App Developer Intern,Hyderabad,3,3,0,0.5327060931899642,9.606666666666667
+INT139,WebCraft Digital,Mobile App Developer Intern,Pune,2,2,0,0.7683333333333335,9.2
+INT140,CloudNine Systems,Cybersecurity Intern,Gurugram,5,5,0,0.753482456140351,8.724
+INT141,NextGen Software,Backend Developer Intern,Bangalore,5,5,0,0.5840178571428571,8.358
+INT142,TechCorp Solutions,Software Developer Intern,Ahmedabad,3,3,0,0.5578080808080809,9.306666666666667
+INT143,Analytics Pro,ML Engineer Intern,Pune,3,3,0,0.6029166666666668,9.366666666666667
+INT144,NextGen Software,ML Engineer Intern,Pune,2,2,0,0.6935333333333336,9.09
+INT145,CyberShield Corp,Cybersecurity Intern,Kolkata,2,2,0,0.7939434523809525,9.525
+INT146,CloudNine Systems,Backend Developer Intern,Ahmedabad,1,1,0,0.917,9.92
+INT147,PixelPerfect Studios,Software Developer Intern,Bangalore,4,4,0,0.7175,8.55
+INT148,AI Innovations Lab,Frontend Developer Intern,Mumbai,4,4,0,0.7477083333333334,8.5375
+INT149,NextGen Software,Software Developer Intern,Ahmedabad,2,2,0,0.6010565476190477,9.355
+INT150,CyberShield Corp,Backend Developer Intern,Ahmedabad,3,3,0,0.6672222222222223,9.133333333333333

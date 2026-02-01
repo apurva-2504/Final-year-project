@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="container-main">
+        <h2 class="mb-4"><i class="fas fa-chart-bar"></i> Allocation Results</h2>
+        
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <h3>{{ stats.allocated }}</h3>
+                    <p>Students Allocated</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <h3>{{ stats.allocation_rate }}%</h3>
+                    <p>Allocation Rate</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <h3>{{ stats.avg_match_score }}</h3>
+                    <p>Avg Match Score</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <h3>{{ stats.unallocated }}</h3>
+                    <p>Unallocated</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h4>Top 10 Companies by Allocations</h4>
+                <ul class="list-group">
+                    {% for company, count in top_companies.items() %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ company }}
+                        <span class="badge bg-primary rounded-pill">{{ count }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <div class="col-md-6">
+                <h4>Match Quality Distribution</h4>
+                <ul class="list-group">
+                    {% for label, count in score_distribution.items() %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ label }}
+                        <span class="badge bg-success rounded-pill">{{ count }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+        <h4 class="mt-4">Download Results</h4>
+        <div class="btn-group" role="group">
+            <a href="{{ url_for('download', file_type='allocations') }}" class="btn btn-success">
+                <i class="fas fa-download"></i> Download Allocations
+            </a>
+            <a href="{{ url_for('download', file_type='unallocated') }}" class="btn btn-warning">
+                <i class="fas fa-download"></i> Download Unallocated
+            </a>
+            <a href="{{ url_for('download', file_type='match_matrix') }}" class="btn btn-info">
+                <i class="fas fa-download"></i> Download Match Matrix
+            </a>
+        </div>
+        
+        <div class="mt-4">
+            <a href="{{ url_for('view_allocations') }}" class="btn btn-primary me-2">
+                <i class="fas fa-table"></i> View All Allocations
+            </a>
+            <a href="{{ url_for('visualizations') }}" class="btn btn-primary">
+                <i class="fas fa-chart-pie"></i> View Visualizations
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

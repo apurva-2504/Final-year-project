@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="container-main">
+        <h2 class="mb-4"><i class="fas fa-cog"></i> Configure Matching Algorithm</h2>
+        
+        <div class="alert alert-info">
+            <strong>Info:</strong> Adjust the weights for different matching criteria. All weights should sum to 1.0.
+        </div>
+        
+        <form method="POST">
+            <h4 class="mt-4 mb-3">Feature Weights</h4>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="skill_weight" class="form-label">
+                            <strong>Skill Match Weight</strong> (Current: <span id="skill_value">{{ weights.skill_match }}</span>)
+                        </label>
+                        <input type="range" class="form-range" id="skill_weight" name="skill_weight" 
+                               min="0" max="1" step="0.01" value="{{ weights.skill_match }}" 
+                               oninput="document.getElementById('skill_value').innerText = this.value">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="interest_weight" class="form-label">
+                            <strong>Interest Match Weight</strong> (Current: <span id="interest_value">{{ weights.interest_match }}</span>)
+                        </label>
+                        <input type="range" class="form-range" id="interest_weight" name="interest_weight" 
+                               min="0" max="1" step="0.01" value="{{ weights.interest_match }}"
+                               oninput="document.getElementById('interest_value').innerText = this.value">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="cgpa_weight" class="form-label">
+                            <strong>CGPA Weight</strong> (Current: <span id="cgpa_value">{{ weights.cgpa_match }}</span>)
+                        </label>
+                        <input type="range" class="form-range" id="cgpa_weight" name="cgpa_weight" 
+                               min="0" max="1" step="0.01" value="{{ weights.cgpa_match }}"
+                               oninput="document.getElementById('cgpa_value').innerText = this.value">
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="location_weight" class="form-label">
+                            <strong>Location Match Weight</strong> (Current: <span id="location_value">{{ weights.location_match }}</span>)
+                        </label>
+                        <input type="range" class="form-range" id="location_weight" name="location_weight" 
+                               min="0" max="1" step="0.01" value="{{ weights.location_match }}"
+                               oninput="document.getElementById('location_value').innerText = this.value">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="branch_weight" class="form-label">
+                            <strong>Branch Match Weight</strong> (Current: <span id="branch_value">{{ weights.branch_match }}</span>)
+                        </label>
+                        <input type="range" class="form-range" id="branch_weight" name="branch_weight" 
+                               min="0" max="1" step="0.01" value="{{ weights.branch_match }}"
+                               oninput="document.getElementById('branch_value').innerText = this.value">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="experience_weight" class="form-label">
+                            <strong>Experience Weight</strong> (Current: <span id="experience_value">{{ weights.experience_match }}</span>)
+                        </label>
+                        <input type="range" class="form-range" id="experience_weight" name="experience_weight" 
+                               min="0" max="1" step="0.01" value="{{ weights.experience_match }}"
+                               oninput="document.getElementById('experience_value').innerText = this.value">
+                    </div>
+                </div>
+            </div>
+            
+            <h4 class="mt-4 mb-3">Threshold Settings</h4>
+            <div class="mb-3">
+                <label for="min_threshold" class="form-label">
+                    <strong>Minimum Match Score Threshold</strong> (Current: <span id="threshold_value">{{ min_threshold }}</span>)
+                </label>
+                <input type="range" class="form-range" id="min_threshold" name="min_threshold" 
+                       min="0" max="1" step="0.05" value="{{ min_threshold }}"
+                       oninput="document.getElementById('threshold_value').innerText = this.value">
+                <div class="form-text">Only matches above this threshold will be considered for allocation</div>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-lg mt-3">
+                <i class="fas fa-save"></i> Save Configuration & Process
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}

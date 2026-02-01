@@ -1,0 +1,50 @@
+
+================================================================================
+INTERNSHIP ALLOCATION SYSTEM - FINAL REPORT
+================================================================================
+Generated on: 2025-11-30 09:19:08
+
+ALLOCATION SUMMARY
+================================================================================
+Total Students:                 1500
+Total Internships:              150
+Total Positions Available:      459
+Students Allocated:             459
+Students Unallocated:           1041
+Allocation Rate:                30.60%
+Position Fill Rate:             100.00%
+
+MATCH QUALITY METRICS
+================================================================================
+Average Match Score:            0.6878
+Median Match Score:             0.7009
+Standard Deviation:             0.0917
+Minimum Match Score:            0.5171
+Maximum Match Score:            0.9483
+
+FEATURE CONTRIBUTIONS (Average)
+================================================================================
+Skill Match:                    0.5533
+Interest Match:                 0.5440
+CGPA Match:                     0.8224
+Location Match:                 0.9978
+Branch Match:                   0.8074
+Experience Match:               0.8856
+
+ALGORITHM DETAILS
+================================================================================
+Algorithm Used:                 Greedy Algorithm
+Minimum Match Threshold:        0.3
+Eligible Matches Evaluated:     125,689
+Total Allocations Made:         459
+
+OUTPUT FILES GENERATED
+================================================================================
+1. final_allocations.csv        - Complete allocation results
+2. unallocated_students.csv     - Students who didn't get allocated
+3. internship_allocation_report.csv - Internship-wise report
+4. allocation_results.png       - Visualization charts
+
+================================================================================
+END OF REPORT
+================================================================================
